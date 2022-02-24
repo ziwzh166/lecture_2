@@ -1,2 +1,2 @@
 # lecture_2
-exee2
+exe2 of python programming
