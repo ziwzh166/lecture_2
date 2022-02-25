@@ -6,20 +6,19 @@ class GameRunner:
     def __init__(self):
         
         self.reset()
-
+        self.dice = Die.create_dice(5)
 
     def reset(self):
         self.round = 1
         self.wins = 0
         self.loses = 0
-        self.dice = Die.create_dice(5)
+        
 
 
     def answer(self):
         total = 0
         for die in self.dice:
             total += int(die.value)
-            print(die.value)
         return total
 
     @classmethod

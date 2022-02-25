@@ -1,0 +1,8 @@
+From two cprofile files we can find two output lines as below:
+
+Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    7.538    7.538    7.928    7.928 matmult.py:2(<module>)
+        1    0.001    0.001    0.204    0.204 matmult_Numpy.py:7(<module>)
+It’s clear that after using the numpy arrary and calculate the dot products directly instead of using loop is more efficient
